@@ -16,7 +16,7 @@ describe('Spec on account api', function () {
 
   it('should getAccountDetails', function (done) {
     var $res;
-    var scope = nock('https://api.betfair.com/', {
+    var scope = nock('https://api.betfair.it/', {
       reqheaders: {
         'X-Application': sessionCfg.applicationKey,
         'X-Authentication': sessionCfg.token,

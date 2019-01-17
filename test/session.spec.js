@@ -4,7 +4,7 @@ var Session = require('../lib/session');
 
 describe('Spec on session configuration object', function () {
   it('should get session token', function (done) {
-    var scope = nock('https://identitysso.betfair.com', {
+    var scope = nock('https://identitysso.betfair.it', {
       reqheaders: {
         'X-Application': 'Lv3oIsDhPgiSUHVL',
         'Content-Type': 'application/x-www-form-urlencoded'

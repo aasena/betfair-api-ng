@@ -15,7 +15,7 @@ describe('Spec on betting api', function () {
   });
 
   it('listCompetitions', function (done) {
-    var scope = nock('https://api.betfair.com/', {
+    var scope = nock('https://api.betfair.it/', {
       reqheaders: {
         'X-Application': sessionCfg.applicationKey,
         'X-Authentication': sessionCfg.token,
@@ -34,7 +34,7 @@ describe('Spec on betting api', function () {
   });
 
   it('listCountries', function (done) {
-    var scope = nock('https://api.betfair.com/', {
+    var scope = nock('https://api.betfair.it/', {
       reqheaders: {
         'X-Application': sessionCfg.applicationKey,
         'X-Authentication': sessionCfg.token,
@@ -54,7 +54,7 @@ describe('Spec on betting api', function () {
   });
 
   it('listCurrentOrders', function (done) {
-    var scope = nock('https://api.betfair.com/', {
+    var scope = nock('https://api.betfair.it/', {
       reqheaders: {
         'X-Application': sessionCfg.applicationKey,
         'X-Authentication': sessionCfg.token,
@@ -92,7 +92,7 @@ describe('Spec on betting api', function () {
 
     it('should send request', function (done) {
       var uu = betting.$unique();
-      var scope = nock('https://api.betfair.com/', {
+      var scope = nock('https://api.betfair.it/', {
         reqheaders: {
           'X-Application': sessionCfg.applicationKey,
           'X-Authentication': sessionCfg.token,
