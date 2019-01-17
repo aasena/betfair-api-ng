@@ -1,19 +1,21 @@
 
-#Simple Betfair API-NG
-Login maybe how non-interactive/interactive endpoint.
+##Simple Italian Implementation
+Italian version of [Betfair-Api-Ng](https://github.com/zoh/betfair-api-ng) library
 
+[README] COPY:
+(https://github.com/zoh/betfair-api-ng/blob/master/README.md)
 Contains:
 * Betting API
 * Accounts API
 * Heartbeat API
 
-## Install
+### Install
 ```
 npm install betfair-api-ng
 ```
 For "Non-Interactive (bot) login" add crt and key file in root or ./crt/ directory
 
-## Examples
+### Examples
 ```js
 // login with certificate.
 Betfair.login({
@@ -55,7 +57,7 @@ Betfair.login(optionsLogin, function (err, betfair) {
 });
 ```
 
-## Tests
+### Tests
 run unit tests
 install mocha and dependencies
 and :
