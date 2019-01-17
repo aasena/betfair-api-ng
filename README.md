@@ -1,5 +1,4 @@
 
-###Simple Italian Implementation
 Italian version of [Betfair-Api-Ng](https://github.com/zoh/betfair-api-ng) library
 
 [README](https://github.com/zoh/betfair-api-ng/blob/master/README.md) COPY:
