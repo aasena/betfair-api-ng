@@ -1,9 +1,9 @@
 
-##Simple Italian Implementation
+###Simple Italian Implementation
 Italian version of [Betfair-Api-Ng](https://github.com/zoh/betfair-api-ng) library
 
-[README] COPY:
-(https://github.com/zoh/betfair-api-ng/blob/master/README.md)
+[README](https://github.com/zoh/betfair-api-ng/blob/master/README.md) COPY:
+
 Contains:
 * Betting API
 * Accounts API
